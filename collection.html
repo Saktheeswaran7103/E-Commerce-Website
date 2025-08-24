@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="style.css">
+     <!--font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>FITNESS STUDIO</h1>
+        <div class="navbar-links">
+         <p class="navbar-link"><a href="index.html">Home</a></p>
+         <p class="navbar-link"><a href="collection.html">collection</a></p>
+         <p class="navbar-link"><a href="contact.html">contact</a></p>
+
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+         
+
+    </nav>
+    <!--sidenavbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+             <p class="side-navbar-link"><a href="index.html">Home</a></p>
+         <p class="side-navbar-link"><a href="collection.html">collection</a></p>
+         <p class="side-navbar-link"><a href="contact.html">contact</a></p>
+           
+
+
+        </div>
+
+    </div>
+    <!--product-->
+    <div class="product section">
+     <form class="product-search">
+        <input type="text" id="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+     </form>
+     <div class="products" id="products">
+     <div class="product-box">
+        <img src="./photos/cricket (1).jpg">
+     <p>Cricket bat</p>
+     </div>
+      <div class="product-box">
+        <img src="./photos/BB bat (1).jpg">
+     <p>Baseball Bat</p>
+     </div>
+     <div class="product-box">
+        <img src="./photos/boxing gloves (1).jpg">
+     <p>Boxing gloves</p>
+     </div>
+     <div class="product-box">
+        <img src="./photos/ball (1).jpg">
+     <p>Wonderfull balls</p>
+     </div>
+     <div class="product-box">
+        <img src="./photos/clothings (1).jpg">
+     <p>Clothes</p>
+     </div>
+     <div class="product-box">
+        <img src="./photos/dumbell (1).jpg">
+     <p>Dumbell</p>
+     </div>
+     <div class="product-box">
+        <img src="./photos/resist band (1).jpg">
+     <p>Resist Band</p>
+     </div>
+     <div class="product-box">
+        <img src="./photos/shoe (1).jpg">
+     <p>Shoe</p>
+     </div>
+     </div>
+
+
+    </div>
+  
+<!--footer-->
+<div class="footer">
+<div class="footer-container">
+<div class="footer-box">
+    <h2 class="headingtext">FITNESS STUDIO</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sit autem omnis quod recusandae nostrum qui minima placeat perferendis nulla sapiente, atque architecto sed voluptatibus exercitationem i</p>
+    <div class="footer-icon-container">
+       <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+       <i class="fa-brands fa-twitter" style="color: #fff"></i>
+       <i class="fa-brands fa-facebook" style="color:#fff"></i>
+
+    </div>
+</div>
+
+</div>
+<p>fitness@studio.com</p>
+
+</div>
+<script src="collection.js"></script>
+    
+</body>
+</html>
